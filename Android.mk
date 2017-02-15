@@ -49,15 +49,19 @@ LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v7-appcompat \
     android-support-v4 \
-    android-support-design
+    android-support-design \
+    android-support-transition \
+    android-support-v7-recyclerview
 
 LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res \
     frameworks/support/v7/appcompat/res \
     frameworks/support/design/res \
+    frameworks/support/transition/res \
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay \
     --extra-packages android.support.design \
-    --extra-packages android.support.v7.appcompat
+    --extra-packages android.support.v7.appcompat \
+    --extra-packages android.support.transition
 
 include $(BUILD_PACKAGE)
