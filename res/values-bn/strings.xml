@@ -32,5 +32,5 @@
     <string name="which_wallpaper_option_home_screen" msgid="6592329803583957023">"হোম স্ক্রিন"</string>
     <string name="which_wallpaper_option_home_screen_and_lock_screen" msgid="6170359719231147447">"হোম স্ক্রিন ও লক স্ক্রিন"</string>
     <string name="collapse_attribution_panel" msgid="4998500891743118630">"ওয়ালপেপার তথ্যের প্যানেলকে সংকুচিত করুন"</string>
-    <string name="expand_attribution_panel" msgid="3151357815478885438">"ওয়ালপেপার তথ্যের প্যানেলকে প্রসারিত করুন"</string>
+    <string name="expand_attribution_panel" msgid="3151357815478885438">"ওয়ালপেপার তথ্যের প্যানেলকে বড় করুন"</string>
 </resources>
