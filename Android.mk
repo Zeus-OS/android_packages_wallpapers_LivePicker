@@ -48,7 +48,11 @@ LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     android-support-v7-appcompat \
-    android-support-v4 \
+    android-support-compat \
+    android-support-core-utils \
+    android-support-core-ui \
+    android-support-fragment \
+    android-support-annotations \
     android-support-design \
     android-support-transition \
     android-support-v7-recyclerview
