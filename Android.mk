@@ -55,7 +55,7 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     android-support-core-utils \
     android-support-core-ui \
     android-support-fragment \
-    android-support-design \
+    $(ANDROID_SUPPORT_DESIGN_TARGETS) \
     android-support-transition \
     android-support-v7-recyclerview
 
