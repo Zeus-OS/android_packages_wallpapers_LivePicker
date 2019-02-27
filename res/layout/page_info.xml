@@ -61,11 +61,11 @@
         android:layout_marginTop="@dimen/preview_attribution_pane_explore_top_margin"
         android:orientation="horizontal">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/preview_attribution_pane_explore_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/LivePicker.Button.Outlined"
+            style="@style/OutlinedButtonStyle"
             android:text="@string/explore_further"
             android:visibility="gone"/>
 
@@ -76,11 +76,11 @@
             android:layout_weight="1"
             android:visibility="gone"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/preview_attribution_pane_set_wallpaper_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/LivePicker.Button.Colored"
+            style="@style/UnelevatedButtonStyle"
             android:text="@string/set_live_wallpaper"/>
 
     </LinearLayout>

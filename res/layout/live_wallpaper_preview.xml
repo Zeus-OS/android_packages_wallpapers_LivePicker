@@ -52,11 +52,8 @@
                 android:id="@+id/tablayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:tabTextAppearance="@style/LivePicker.TextAppearance.Tab.NoAllCaps"
-                app:tabIndicatorColor="?android:attr/textColorPrimary"
-                app:tabGravity="fill"
-                app:tabMaxWidth="0dp"
-                android:visibility="gone"/>
+                style="@style/TabLayoutStyle"
+                android:visibility="gone" />
 
             <com.android.wallpaper.livepicker.widget.ConstraintViewPager
                 android:id="@+id/viewpager"
