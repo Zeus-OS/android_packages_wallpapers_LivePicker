@@ -28,8 +28,7 @@
         android:forceHasOverlappingRendering="false"
         android:gravity="center_horizontal"
         android:singleLine="true"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
-        android:textSize="@dimen/abc_text_size_subhead_material"
+        android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Title"
         android:visibility="gone"/>
 
     <TextView
@@ -39,8 +38,7 @@
         android:layout_marginTop="@dimen/preview_attribution_pane_author_top_margin"
         android:forceHasOverlappingRendering="false"
         android:gravity="center_horizontal"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
-        android:textColor="?android:attr/textColorPrimary"
+        android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Subhead"
         android:visibility="gone"/>
 
     <TextView
@@ -50,8 +48,7 @@
         android:layout_marginTop="@dimen/preview_attribution_pane_description_top_margin"
         android:forceHasOverlappingRendering="false"
         android:gravity="center_horizontal"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
-        android:textSize="@dimen/abc_text_size_caption_material"
+        android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Caption"
         android:visibility="gone"/>
 
     <LinearLayout
